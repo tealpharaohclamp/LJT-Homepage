@@ -13,6 +13,7 @@ Education
 ======
 
 * Ph.D. in Computer Science, Hong Kong University of Science and Technology, 2024–Present
+  * Advisor: Professor Junxian He
 * B.Eng., Shanghai Jiao Tong University, 2020–2024
 
 Research Experience
