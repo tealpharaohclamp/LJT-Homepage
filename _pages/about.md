@@ -6,8 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
+{% include base_path %}
 
-I am Junteng Liu, a first-year PhD candidate in the HKUST NLP Group at the Hong Kong University of Science and Technology, supervised by Professor Junxian He. I completed my B.Eng. at Shanghai Jiao Tong University (SJTU) in June 2024. My research lies at the intersection of natural language processing and machine learning, with a particular focus on large language model reasoning, reinforcement learning, and model trustworthiness. A complete record of my research and experience is also available on my [CV page]({{ site.baseurl }}/cv/).
+I am Junteng Liu, a first-year PhD candidate in the HKUST NLP Group at the Hong Kong University of Science and Technology, supervised by Professor Junxian He. I completed my B.Eng. at Shanghai Jiao Tong University (SJTU) in June 2024. My research lies at the intersection of natural language processing and machine learning, with a particular focus on large language model reasoning, reinforcement learning, and model trustworthiness. A complete record of my research and experience is also available on my [CV page]({{ base_path }}/cv/).
 
 Academic Background
 ======
@@ -35,22 +36,22 @@ Publications
 
 * **SynLogic: Synthesizing Verifiable Reasoning Data at Scale for Learning Logical Reasoning and Beyond**<br>
   Junteng Liu, Yuanxiang Fan, Zhuo Jiang, Han Ding, Yongyi Hu, Chi Zhang, Yiqi Shi, Shitong Weng, Aili Chen, Shiqi Chen, Yunan Huang, Mozhi Zhang, Pengyu Zhao, Junjie Yan, Junxian He<br>
-  *arXiv preprint*, 2025 &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/synlogic)
+  *arXiv preprint*, 2025 &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/synlogic)
 * **On the Perception Bottleneck of VLMs for Chart Understanding**<br>
   Junteng Liu, Weihao Zeng, Xiwen Zhang, Yijun Wang, Zifei Shan, Junxian He<br>
-  *arXiv preprint*, 2025 &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/vlm-chart-perception-bottleneck)
+  *arXiv preprint*, 2025 &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/vlm-chart-perception-bottleneck)
 * **On the Universal Truthfulness Hyperplane Inside LLMs**<br>
   Junteng Liu, Shiqi Chen, Yu Cheng, Junxian He<br>
-  *EMNLP 2024* &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/universal-truthfulness-hyperplane)
+  *EMNLP 2024* &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/universal-truthfulness-hyperplane)
 * **In-Context Sharpness as Alerts: An Inner Representation Perspective for Hallucination Mitigation**<br>
   Shiqi Chen, Miao Xiong, Junteng Liu, Zhengxuan Wu, Teng Xiao, Siyang Gao, Junxian He<br>
-  *ICML 2024* &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/in-context-sharpness-alerts)
+  *ICML 2024* &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/in-context-sharpness-alerts)
 * **C-Eval: A Multi-Level Multi-Discipline Chinese Evaluation Suite for Foundation Models**<br>
   Yuzhen Huang, Yuzhuo Bai, Zhihao Zhu, Junlei Zhang, Jinghan Zhang, Tangjun Su, Junteng Liu, Chuancheng Lv, Yikai Zhang, Jiayi Lei, Yao Fu, Maosong Sun, Junxian He<br>
-  *NeurIPS 2023* &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/ceval)
+  *NeurIPS 2023* &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/ceval)
 * **Composing Parameter-Efficient Modules with Arithmetic Operations**<br>
   Jinghan Zhang, Shiqi Chen, Junteng Liu, Junxian He<br>
-  *NeurIPS 2023* &nbsp;&middot;&nbsp; [details]({{ site.baseurl }}/publication/composing-peft-modules)
+  *NeurIPS 2023* &nbsp;&middot;&nbsp; [details]({{ base_path }}/publication/composing-peft-modules)
 
 Skills
 ======
