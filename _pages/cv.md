@@ -11,54 +11,34 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. in Computer Science** (2024–Present) — Hong Kong University of Science and Technology (HKUST), HKUST NLP Group. *Supervisor: Professor Junxian He.*
+* **B.Eng. in Computer Science** (2020–2024) — Shanghai Jiao Tong University (SJTU). *Zhiyuan Honor Scholarship.*
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Research Intern** (Feb 2025 – Present) — MINIMAX.
+* **Research Intern** (Jun 2024 – Sep 2024) — Tencent WXG. *Advisor: Zifei Shan.*
+* **Research Intern** (Jun 2023 – Dec 2023) — Shanghai AI Lab. *Advisor: Prof. Yu Cheng.*
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming & Deep Learning: Python, PyTorch
+* Machine Learning & NLP: Natural Language Processing, Large Language Models, Reinforcement Learning, Vision-Language Models, Interpretability
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+  {% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
+  {% endfor %}
+
 Talks
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+  {% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html %}
+  {% endfor %}
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
+  {% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  {% endfor %}
